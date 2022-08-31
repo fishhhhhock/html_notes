@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 在html中，<label>标签通常和<input>标签一起使用，<label>标签为input元素定义标注（标记） -->
+    <form action="">
+    <!-- 单行文本输入框 -->
+        请输入你的姓名：<br>
+        <input type="text" name="" id="">
+        请输入你的地址：<br>
+        <input type="text" name="" id="">
+        <!-- 多行文本框标记 -->
+        请输入你最新的工作情况：<br>
+        <textarea name="" id="yourworks" cols="30" rows="10"></textarea>
+        <br>
+        <!-- 密码框 -->
+        请输入你的密码：<br>
+        <input type="password" name="" id="">
+        <!-- 单选按钮 -->
+        请选择你感兴趣的图书类型：
+        <br>
+        <input type="radio" name="" id="">网站编程<br>
+        <input type="radio" name="" id="">设计软件<br>
+        <input type="radio" name="" id="">办公软件<br>
+        <input type="radio" name="" id="">黑客攻防<br>
+        <!-- 复选框:checked属性主要用来设置默认选中项 -->
+        请选择你感兴趣的图书类型：<br>
+        <input type="checkbox" name="" id="">网站编程<br>
+        <input type="checkbox" name="" id="">设计软件<br>
+        <input type="checkbox" name="" id="">办公软件<br>
+        <input type="checkbox" name="" id="" checked>黑客攻防<br>
+        <!-- 选择列表 -->
+        请选择你感兴趣的图书类型：<br>
+        <!-- size属性定义选择列表的行数  multiple表示可以多选 -->
+        <select name="fruit" id="" size="3" multiple>
+            <option value="">网站编程</option>
+            <option value="">办公软件</option>
+            <option value="">设计软件</option>
+            <option value="">黑客攻防</option>
+        </select>
+        <!-- 普通按钮 -->
+        <input type="button" value="单击我">
+        <!-- 提交按钮 -->
+        <input type="submit" value="提交">
+        <!-- 重置按钮 -->
+        <input type="reset" value="重置">
+        <br>
+
+        <!-- html5高级属性 -->
+        请输入网址：<br>
+        <input type="url" name="" id=""><br>
+        请输入e-mail地址：<br>
+        <input type="email" name="" id=""><br>
+        <!-- date属性 -->
+        请选择购买商品的日期：<br>
+        <input type="date" name="" id=""><br>
+        请输入数字：<br>
+        <input type="number" name="" id="" min="3" max="10"><br>
+        <!-- range属性 -->
+        <input type="range" name="" id="" min="3" max="10"><br>
+
+        <!-- required属性：规定必须在提交之前填写输入域（不能为空） -->
+        <!-- 文件上传框：name属性为文件上传框的名称，
+                size属性定义文件上传框的宽度，单位是单个字符长度， maxlength属性定义最多输入的字符数-->
+        <input type="file" name="" id="">
+    </form>
+
+    
+</body>
+</html>
